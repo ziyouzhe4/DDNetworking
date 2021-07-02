@@ -1,0 +1,27 @@
+PODS:
+  - DDNetworking (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDNetworking (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDNetworking: d25657bbe9ae511d3c2720c1a3239f457d63f9ba
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 45373fe666771d50d3ee988bd3de1a9da779e1a7
+
+COCOAPODS: 1.8.4
