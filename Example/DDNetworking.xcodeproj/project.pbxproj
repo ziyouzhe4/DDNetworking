@@ -62,10 +62,10 @@
 		6548088806F5BF9D2C0EC02D /* Pods_DDNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA093AD5DC93EA78253F204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8AA093AD5DC93EA78253F204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98E1F15439D86CE699870E77 /* Pods_DDNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B79BD8A41F5BBB294F4CCB96 /* DDNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDNetworking.podspec; path = ../DDNetworking.podspec; sourceTree = "<group>"; };
-		BC5F90F71D6FF93AA00864C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B79BD8A41F5BBB294F4CCB96 /* DDNetworking2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDNetworking2.podspec; path = ../DDNetworking2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC5F90F71D6FF93AA00864C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C6FA580D8DB49046E4A49260 /* Pods-DDNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDNetworking_Tests/Pods-DDNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B79BD8A41F5BBB294F4CCB96 /* DDNetworking.podspec */,
+				B79BD8A41F5BBB294F4CCB96 /* DDNetworking2.podspec */,
 				BC5F90F71D6FF93AA00864C8 /* README.md */,
 				8AA093AD5DC93EA78253F204 /* LICENSE */,
 			);
@@ -193,7 +193,6 @@
 				C6FA580D8DB49046E4A49260 /* Pods-DDNetworking_Tests.debug.xcconfig */,
 				50DE0C08552E186A720D7CCF /* Pods-DDNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

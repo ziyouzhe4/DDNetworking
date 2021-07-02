@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DDNetworking'
+  s.name             = 'DDNetworking2'
   s.version          = '0.1.0'
   s.summary          = 'A short description of DDNetworking.'
 
