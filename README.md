@@ -22,7 +22,7 @@ pod 'DDNetworking'
 
 ## Author
 
-ziyouzhe4, majianjie@didiglobal.com
+ziyouzhe4, 592357262@qq.com
 
 ## License
 
